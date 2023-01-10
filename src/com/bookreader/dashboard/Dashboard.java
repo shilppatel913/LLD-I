@@ -3,7 +3,7 @@ package com.bookreader.dashboard;
 import com.bookreader.beans.Book;
 import com.bookreader.beans.User;
 
-public class Dashboard {
+public class Dashboard implements DashBoardMethods {
 
 	private Book book;
 	private User user;
